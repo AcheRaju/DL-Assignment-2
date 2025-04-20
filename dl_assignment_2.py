@@ -200,6 +200,9 @@ for i in range(5):
     pred = predict(model, src_sample, input_vocab, target_vocab)
     print(f"Input: {src_sample} | Target: {tgt_sample} | Predicted: {pred}")
 
+
+
+#2nd CODE STARTS FROM HERE
 import pandas as pd
 import re
 from datasets import load_dataset
